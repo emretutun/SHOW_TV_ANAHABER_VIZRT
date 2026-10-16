@@ -163,13 +163,3 @@ bizim verdiğimiz geçici numaralardır.
 Ana sahnenin KJ türleri gibi özel davranış gerekiyorsa `KjCatalog` / `GraphicCatalog` sabit tablolarına eklenir.
 
 ---
-
-## 6. Öğrenirken işe yarayan yöntemler
-
-- **Eski uygulamanın loglarını okumak:** Artist'in Engine konsolu gelen her komutu gösterir. Bir düğmeye basıp konsolu
-  okumak, o düğmenin tam komut dizisini verir. Bu projedeki dizilerin hepsi böyle çıkarıldı.
-- **Sahneyi Engine'den sorgulamak:** `TREE GET`, `STAGE*DIRECTOR GET`, `*END_TIME GET` ile sahne yapısı okunur;
-  `tools/vizcmd.ps1` bunu dosyadan toplu yapar.
-- **Sahneyi ekrana koymadan incelemek:** `SCENE*yol LOAD` sonra `SCENE*yol*STAGE*DIRECTOR GET`; sahne belleğe alınır,
-  katmana konmaz.
-- **Varsayımları işaretlemek:** Logla doğrulanmamış her davranış kodda ve notlarda "VARSAYIM" diye işaretli.
