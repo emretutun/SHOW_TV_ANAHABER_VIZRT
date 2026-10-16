@@ -1,8 +1,7 @@
 # SHOW TV Ana Haber – Viz Reji Uygulaması
 
 Vizrt Viz Engine üzerinde çalışan haber grafiklerini (KJ, logo, flot, kelebek) yöneten bir Windows Forms uygulaması.
-.NET Framework 4.8, Viz Artist/Engine 3.14 ile geliştirildi. Yayındaki eski WPF uygulamasının davranışı, Engine konsolunda
-görülen komutlar tek tek loglanarak birebir yeniden kuruldu.
+.NET Framework 4.8, Viz Artist/Engine 3.14 ile geliştirildi.
 
 Bu depo aynı zamanda bir **öğrenme günlüğü**dür: Viz komut dilini ve "transition logic" yaklaşımını sıfırdan öğrenirken
 yazıldı. Aşağıdaki bölümler hem uygulamayı hem de bu kavramları anlatır.
